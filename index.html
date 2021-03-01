@@ -13,7 +13,15 @@
             :-moz-placeholder {
                 text-align: center;
             }
-            
+
+            div.search {
+                position: absolute;
+                top: 35%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }
+
             .logo {
                 display: block;
                 margin-left: auto;
@@ -42,11 +50,9 @@
         <title>Google</title>
     </head>
     <body>
-        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         <div class="search">
-            <div class="row">
-                <input class="searchbox" type="text" id="searchbox" name="searchtext" placeholder="Search">
-            </div>
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <input class="searchbox" type="text" id="searchbox" name="searchtext" placeholder="Search">
         </div>
         
     </body>
