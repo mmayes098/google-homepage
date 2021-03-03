@@ -14,6 +14,28 @@
                 text-align: center;
             }
 
+            .topnav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                text-decoration: underline;
+            }
+
             div.search {
                 position: absolute;
                 top: 35%;
@@ -50,6 +72,13 @@
         <title>Google</title>
     </head>
     <body>
+        <ul class="topnav">
+            <li><a>About</a></li>
+            <li><a>Store</a></li>
+            <li style="float:right"><img style="border-radius: 50%" src="https://lh3.googleusercontent.com/ogw/ADGmqu-5E0-Dr5bUjNWdxtgd39TjkPoq7CeLaqpWqNhw=s32-c-mo"></li>
+            <li style="float:right"><a>Images</a></li>
+            <li style="float:right"><a>Gmail</a></li>
+        </ul>
         <div class="search">
             <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
             <input class="searchbox" type="text" id="searchbox" name="searchtext" placeholder="Search">
